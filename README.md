@@ -3,8 +3,8 @@
 Este projeto é um simples simples protótipo de um Cardápio Digital. Você pode assistir ao tutorial no [YouTube](https://www.youtube.com/@kipperdev). 
 
 <h1 align="center">
-    <img src="https://github.com/nauam/project-app-spring-food-menu/blob/main/assets/tela-home.jpg?raw=true" width="300"/>
-    <img src="https://github.com/nauam/project-app-spring-food-menu/blob/main/assets/tela-modal.png?raw=true" width="300"/>
+    <img src="https://github.com/nauam/project-app-spring-react-food-menu/blob/main/assets/tela-home.jpg?raw=true" width="300"/>
+    <img src="https://github.com/nauam/project-app-spring-react-food-menu/blob/main/assets/tela-modal.png?raw=true" width="300"/>
 </h1>
 
 ## Clonar
@@ -12,8 +12,8 @@ Primeiro, você deve clonar o projeto na sua máquina, para isso você
 pode colar o seguinte comando em seu terminal
 
 ```bash
-git clone https://github.com/nauam/project-app-spring-food-menu
-cd project-app-spring-food-menu
+git clone https://github.com/nauam/project-app-spring-react-food-menu
+cd project-app-spring-react-food-menu
 ```
 
 # 🫂 Backend - Intellij IDEA
@@ -21,7 +21,7 @@ cd project-app-spring-food-menu
 A aplicação foi desenvolvida usando **Java Spring e Spring MVC** para criação do servidor, **Spring Data JPA** para manipulação e persistência de dados, **Lombok** para geração de boilerplates e Postgres Driver para realizar a conexão com banco de dados Postgres.
 
 ```bash
-cd project-app-spring-food-menu/api
+cd project-app-spring-react-food-menu/api
 ```
 
 ## 💻 Requisitos
@@ -51,7 +51,7 @@ mvn spring-boot:run
 A aplicação foi desenvolvida usando **React, Typescript e React Query**.
 
 ```bash
-cd project-app-spring-food-menu/web
+cd project-app-spring-react-food-menu/web
 ```
 
 ## 💻 Requisitos
