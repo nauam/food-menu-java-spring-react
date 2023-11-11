@@ -3,8 +3,8 @@
 Este projeto é um simples simples protótipo de um Cardápio Digital. Você pode assistir ao tutorial no [YouTube](https://www.youtube.com/@kipperdev). 
 
 <h1 align="center">
-    <img src="../assets/tela-home.jpg" width="300"/>
-    <img src="../assets/tela-modal.png" width="300"/>
+    <img src="https://github.com/nauam/project-app-spring-food-menu/blob/main/assets/tela-home.jpg?raw=true" width="300"/>
+    <img src="https://github.com/nauam/project-app-spring-food-menu/blob/main/assets/tela-modal.png?raw=true" width="300"/>
 </h1>
 
 ## Clonar
@@ -30,19 +30,21 @@ Antes de iniciar, você deve ter o Java 17, Maven e o Postgres instalados em sua
 
 ## 🚀 Instalando
 
-Para instalar as dependências, execute o maven install.
+Para construir o projeto com o Maven, executar os comando abaixo:
 
-<h1 align="center">
-    <img src="../assets/install-maven.png" width="300"/>
-</h1>
+```bash
+mvn clean install
+```
 
-## 🚀 Rodar Backend
+O comando irá baixar todas as dependências do projeto e criar um diretório target com os artefatos construídos, que incluem o arquivo jar do projeto. Além disso, serão executados os testes unitários, e se algum falhar, o Maven exibirá essa informação no console.
 
-Para rodar a API.
+## 🚀 Execução
 
-<h1 align="center">
-    <img src="../assets/run-project.png" width="300"/>
-</h1>
+Para executar o projeto com o Maven Spring Boot Plugin, executar os comando abaixo:
+
+```bash
+mvn spring-boot:run
+```
 
 # Frontend - VSCode
 
